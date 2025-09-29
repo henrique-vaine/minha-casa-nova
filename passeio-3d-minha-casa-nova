@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour 3D da Casa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background: #004aad;
+      color: white;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border-radius: 12px;
+    }
+    .cta {
+      margin-top: 20px;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 15px 25px;
+      background: #28a745;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    .cta a:hover {
+      background: #218838;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Tour 3D da Sua Nova Casa</h1>
+  </header>
+  <div class="container">
+    <p>Assista abaixo a apresentação em 3D da casa em construção:</p>
+    
+    <iframe src="https://drive.google.com/file/d/1hOyvKFpcAeC6Z373c-eneFIGNoLkPnQf/preview"
+            allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+    
+    <div class="cta">
+      <a href="https://wa.me/5534992603145" target="_blank">
+        Fale agora pelo WhatsApp
+      </a>
+    </div>
+  </div>
+</body>
+</html>
